@@ -4,13 +4,14 @@ import (
 	"fmt"
 )
 
+// test
+
 var (
 	//dp float32 = 0.01
 	days int = 20
 )
 
-
-func main(){	
+func main() {
 	var capitall float64
 	var count int
 	var dp float64
@@ -27,6 +28,6 @@ func main(){
 		dpm := capitall * dp
 		mp := dpm * (float64(days))
 		capitall = capitall + mp
-		fmt.Println(months,"ヶ月",int(capitall),"円","利益",int(mp),"円")
+		fmt.Println(months, "ヶ月", int(capitall), "円", "利益", int(mp), "円")
 	}
 }
