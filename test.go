@@ -5,6 +5,7 @@ import (
 )
 
 // test
+// test WSL add
 
 var (
 	//dp float32 = 0.01
